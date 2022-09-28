@@ -1,0 +1,259 @@
+.vector_green {
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    border-top: 15px solid $main-color;
+    border-left: 15px solid $main-color;
+    border-right: 15px solid $main-color;
+    position: absolute;
+    right: -25px;
+    top: 21.71px;
+    z-index: 2;
+    transform: rotate(-128deg);
+}
+  
+.vector_grey {
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    border-top: 15px solid #343431;
+    border-left: 15px solid #343431;
+    border-right: 15px solid #343431;
+    position: absolute;
+    top: 4.71px;
+    left: 71px;
+    z-index: 2;
+    transform: rotate(-180deg);
+}
+  
+.vector_grey_second {
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    border-top: 15px solid #343431;
+    border-left: 15px solid #343431;
+    border-right: 15px solid #343431;
+    position: absolute;
+    left: -14px;
+    z-index: 2;
+    transform: rotate(72deg);
+}
+
+.promo {
+    width: 100vw;
+    margin: 0 auto;
+    height: 750px;
+    position: relative;
+    background-color: #2B2B2A;
+    z-index: 0;
+}
+  
+    .container_promo {
+    margin-left: 100px;
+    }
+  
+  .promo {
+    .promo_black {
+      position: absolute;
+      width: 500.66px;
+      height: 750px;
+      left: 400px;
+      top: 67.97px;
+      background: #2B2B2A;
+      filter: blur(30.5px);
+      transform: rotate(-16.75deg);
+      z-index: 2;
+    }
+  
+    .promo_backgound {
+      background: url('/src/img/unsplash_smgTvepind4.png') center (center / cover) no-repeat;
+      position: absolute;
+      height: 750px;
+      width: 960px;
+      left: 712px;
+      top: 0px;
+      z-index: 1;
+      overflow: hidden;
+    }
+}
+
+.sales {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 109px;
+  
+    .online {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 20px;
+      width: 103px;
+      height: 37px;
+      background: #59F97C;
+      border-radius: 30px;
+      margin-right: 15px;
+    }
+  
+    .top_sales {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 20px;
+      width: 137px;
+      height: 37px;
+      background: #EDC407;
+      border-radius: 30px;
+    }
+  }
+  
+  .course_txt {
+    height: 182px;
+    font-weight: 900;
+    font-size: 130px;
+    line-height: 140%;
+    letter-spacing: 0.15em;
+    color: #3E3E3C;
+  }
+  
+  .advertising {
+    position: absolute;
+    height: 60px;
+    top: 205px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+  }
+  
+  .requier {
+    padding-left: 5px;
+    list-style-type: none;
+  
+    .requier_item {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      color: #FFFFFF;
+  
+      &::before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        transform: translate(-5px, -2px);
+        width: 12px;
+        height: 12px;
+        background: url('../icons/Vector\ 9.svg') center (center / cover) no-repeat;
+      }
+    }
+  }
+  
+  .info {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .price {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 45px;
+    flex-direction: column;
+  
+    .price_wrapper {
+      display: flex;
+      align-items: flex-end;
+    }
+  
+    .price_name {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 150%;
+      color: #FFFFFF;
+    }
+  
+    .price_edit {
+      .price_high {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 50px;
+        color: #FFFFFF;
+      }
+  
+      .price_low {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400;
+        width: 134px;
+        font-size: 22px;
+        line-height: 150%;
+        color: #B7B7B7;
+  
+        &::before {
+          content: '';
+          display: inline-block;
+          vertical-align: middle;
+          transform: translate(0px, 31px);
+          width: 111px;
+          height: 1px;
+          background: url('../icons/Vector\ 1.svg') center (center / cover) no-repeat;
+        }
+      }
+    }
+  
+    .price_cur {
+      font-size: 18px;
+      line-height: 150%;
+      color: #FFFFFF;
+    }
+  }
+  
+  .details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 29px;
+  }
+  
+  .price .btn {
+    width: 275px;
+    height: 65px;
+    font-weight: 400;
+    background: #E0FF00;
+    border-radius: 15px;
+    margin-top: 30px;
+    color: #2B2B2A;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .details .details_block {
+    margin-left: 45px;
+    border-left: 1px solid $main-color;
+    padding-left: 17px;
+  }
+  
+  .details_block {
+    .details_desc {
+      font-weight: 300;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+  
+    .details_txt {
+      font-weight: 700;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+  }
+  
+  .position_course {
+    margin: 8px 0px 0px 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+  
+    span {
+      font-weight: 700;
+    }
+}

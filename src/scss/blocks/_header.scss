@@ -1,0 +1,21 @@
+header {
+    height: 95px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    height: 90px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+  
+    .header_info {
+      display: flex;
+      align-items: center;
+    }
+}
+
+.block_enter_mobile, .logo_mobile {
+    display: none;
+}
